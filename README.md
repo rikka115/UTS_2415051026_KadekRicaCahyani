@@ -1,17 +1,39 @@
-# uts_2415051026_kadek_rica_cahyani
+# 🗡️ QuestLog TaskMate
 
-A new Flutter project.
+Aplikasi *To-Do List* berbasis *RPG Gamification* yang dibuat untuk memenuhi proyek Ujian Tengah Semester (UTS) mata kuliah Pemrograman Mobile. Aplikasi ini mengubah tugas sehari-hari menjadi *quest* dengan sistem *Experience Points* (EXP).
 
-## Getting Started
+## 👤 Identitas Pengembang
+* **Nama:** Kadek Rica Cahyani
+* **NIM:** 2415051026
+* **Program Studi:** Pendidikan Teknik Informatika
+* **Universitas:** Universitas Pendidikan Ganesha
 
-This project is a starting point for a Flutter application.
+## 🛠️ Tech Stack & Arsitektur
+* **Framework:** Flutter (Dart) dengan Null Safety
+* **State Management:** Provider
+* **Backend & Database:** Supabase (Full CRUD)
+* **REST API:** Advice Slip API (Metode GET untuk *Daily Motivation Quote*)
+* **Pola Arsitektur:** MVC ketat (`UI ➔ Provider ➔ Repository ➔ Service ➔ API/DB`)
 
-A few resources to get you started if this is your first Flutter project:
+## 📸 Dokumentasi Screenshot
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+**1. Home (API Data) & Quest List (Responsive)**
+[![alt text](image.png)]
+[![alt text](image-1.png)]
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+**2. Form Tambah & Edit Tugas (Validation)**
+[![alt text](image-2.png)]
+[![alt text](image-3.png)]
+
+**3. Detail Tugas & Fitur Hapus (AlertDialog)**
+[![alt text](image-4.png)]
+[![alt text](image-5.png)]
+
+**4. Profil & Fitur Kreatif (Dark Mode)**
+[![alt text](image-6.png)]
+
+
+## 🚀 Cara Menjalankan Aplikasi
+1. Buka folder proyek ini di VS Code atau Android Studio.
+2. Buka terminal dan jalankan perintah `flutter pub get` untuk mengunduh *dependencies*.
+3. Sambungkan ke Emulator atau HP fisik, lalu jalankan perintah `flutter run`.
